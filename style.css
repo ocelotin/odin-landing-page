@@ -1,6 +1,7 @@
 body{
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #55DDEE;
 }
 .header{
     display: flex;
@@ -34,9 +35,9 @@ body{
     border-radius: 30px;
     font-weight: 700;
     color: #F9FAF8;
-    box-shadow: 0 9px teal;
+    box-shadow: 0 9px #99DD88;
 }
-.section1 .button:hover{background-color: #057509}
+.section1 .button:hover{background-color: #33DDAA; color: black}
 
 .description .maintext{
     font-size: 48px;
@@ -55,6 +56,39 @@ body{
     width: 700px;
     height: 250px;
     background-color: grey;
-    color: #F9FAF8;
-    
+    color: #F9FAF8;   
+}
+
+img{
+  width: 225px;
+  height: 225px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  filter: saturate(7);
+  border-radius: 9%;
+  object-fit: cover;
+}
+
+.section2{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+}
+.section2 .title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.imgtxt{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
