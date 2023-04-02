@@ -1,13 +1,13 @@
 body{
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #55DDEE;
+    background-color: #00AABB;
 }
 .header{
     display: flex;
     align-items: center;
     padding: 0px 150px;
-    background-color: #1F2937;
+    background-color: #3344AA;
     color: #F9FAF8;
 }
 .headerlogo{
@@ -21,7 +21,7 @@ body{
 }
 
 .section1{
-    background-color: #1F2937;
+    background-color: #3344AA;
     display: flex;
     justify-content: space-between;
     padding: 100px 150px;
@@ -37,7 +37,9 @@ body{
     color: #F9FAF8;
     box-shadow: 0 9px #99DD88;
 }
-.section1 .button:hover{background-color: #33DDAA; color: black}
+.section1 .button:hover{
+    background-color: #33DDAA; 
+    color: black}
 
 .description .maintext{
     font-size: 48px;
@@ -91,4 +93,68 @@ img{
     justify-content: center;
     align-items: center;
     font-size: 18px;
+}
+
+.section3{
+    background-color: #DDDDFF;
+    height:350px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 500px;
+    flex-wrap: wrap;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin-bottom: 0px;
+}
+.name{
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 22px;
+}
+
+.section4{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 100px;
+    background-color:#5050d2;
+    margin: 50px 400px;
+    border-radius: 25px;
+    font-size: 22px;
+    color: white;
+}
+
+.section4 .button{
+    margin-left: auto;
+    border-style: solid;
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.section4 .button:hover{
+    background-color: #881188; 
+    color: #BBBBBB}
+
+.section4 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.section4 .text .title{
+    font-weight: bolder;
+}
+
+.footer{
+    text-align: center;
+    padding: 15px;
+    background-color: #3344AA;
+    font-size: 18px;
+    color: whitesmoke;
 }
