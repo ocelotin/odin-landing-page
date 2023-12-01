@@ -102,7 +102,7 @@ img {
 }
 
 .section3 {
-  background-color: #ddddff;
+  background-color: darkred;
   height: auto;
   display: flex;
   justify-content: end;
@@ -114,7 +114,7 @@ img {
   font-size: 36px;
   font-style: italic;
   font-weight: lighter;
-  color: #1f2937;
+  color: lightyellow;
   margin-bottom: 0px;
 }
 .name {
